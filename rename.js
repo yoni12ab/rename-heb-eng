@@ -9,7 +9,7 @@ if (process.argv.length <= 2) {
     process.exit(-1);
 }
  
-const directoryPath = process.argv[2];
+const directoryPath = process.argv[2] || __dirname;
 
 
 //passsing directoryPath and callback function
